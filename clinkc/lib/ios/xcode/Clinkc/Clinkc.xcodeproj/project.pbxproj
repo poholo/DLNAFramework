@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2591B8B61DD4446D00E1105D /* Clinkcs */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2591B8B71DD4446D00E1105D /* Build configuration list for PBXAggregateTarget "Clinkcs" */;
+			buildPhases = (
+				2591B8BA1DD4449800E1105D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Clinkcs;
+			productName = Clinkcs;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		255578D71DD44D9400917F3D /* CGUpnpAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578BF1DD44D9400917F3D /* CGUpnpAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578D81DD44D9400917F3D /* CGUpnpAvController.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C01DD44D9400917F3D /* CGUpnpAvController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578D91DD44D9400917F3D /* CGUpnpAvRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C11DD44D9400917F3D /* CGUpnpAvRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578DA1DD44D9400917F3D /* CGUpnpControlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C21DD44D9400917F3D /* CGUpnpControlPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578DB1DD44D9400917F3D /* CGUpnpDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C31DD44D9400917F3D /* CGUpnpDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578DC1DD44D9400917F3D /* CGUpnpIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C41DD44D9400917F3D /* CGUpnpIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578DD1DD44D9400917F3D /* CGUpnpService.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C51DD44D9400917F3D /* CGUpnpService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578DE1DD44D9400917F3D /* CGUpnpStateVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C61DD44D9400917F3D /* CGUpnpStateVariable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578DF1DD44D9400917F3D /* CGUpnpAvConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C81DD44D9400917F3D /* CGUpnpAvConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E01DD44D9400917F3D /* CGUpnpAvContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578C91DD44D9400917F3D /* CGUpnpAvContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E11DD44D9400917F3D /* CGUpnpAvContentDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578CA1DD44D9400917F3D /* CGUpnpAvContentDirectory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E21DD44D9400917F3D /* CGUpnpAvContentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578CB1DD44D9400917F3D /* CGUpnpAvContentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E31DD44D9400917F3D /* CGUpnpAvController.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578CC1DD44D9400917F3D /* CGUpnpAvController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E41DD44D9400917F3D /* CGUpnpAvItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578CD1DD44D9400917F3D /* CGUpnpAvItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E51DD44D9400917F3D /* CGUpnpAvObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578CE1DD44D9400917F3D /* CGUpnpAvObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E61DD44D9400917F3D /* CGUpnpAVPositionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578CF1DD44D9400917F3D /* CGUpnpAVPositionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E71DD44D9400917F3D /* CGUpnpAvRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578D01DD44D9400917F3D /* CGUpnpAvRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E81DD44D9400917F3D /* CGUpnpAvResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578D11DD44D9400917F3D /* CGUpnpAvResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578E91DD44D9400917F3D /* CGUpnpAvRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578D21DD44D9400917F3D /* CGUpnpAvRoot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578EA1DD44D9400917F3D /* CGUpnpAvServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578D31DD44D9400917F3D /* CGUpnpAvServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578EB1DD44D9400917F3D /* CGXml.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578D41DD44D9400917F3D /* CGXml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578EC1DD44D9400917F3D /* CGXmlNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578D51DD44D9400917F3D /* CGXmlNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255578ED1DD44D9400917F3D /* UPnPAV.h in Headers */ = {isa = PBXBuildFile; fileRef = 255578D61DD44D9400917F3D /* UPnPAV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2591B88D1DD440F500E1105D /* Clinkc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2591B88B1DD440F500E1105D /* Clinkc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2591B8941DD4411500E1105D /* libclinkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2591B8931DD4411500E1105D /* libclinkc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		255578BF1DD44D9400917F3D /* CGUpnpAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAction.h; sourceTree = "<group>"; };
+		255578C01DD44D9400917F3D /* CGUpnpAvController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvController.h; sourceTree = "<group>"; };
+		255578C11DD44D9400917F3D /* CGUpnpAvRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvRenderer.h; sourceTree = "<group>"; };
+		255578C21DD44D9400917F3D /* CGUpnpControlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpControlPoint.h; sourceTree = "<group>"; };
+		255578C31DD44D9400917F3D /* CGUpnpDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpDevice.h; sourceTree = "<group>"; };
+		255578C41DD44D9400917F3D /* CGUpnpIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpIcon.h; sourceTree = "<group>"; };
+		255578C51DD44D9400917F3D /* CGUpnpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpService.h; sourceTree = "<group>"; };
+		255578C61DD44D9400917F3D /* CGUpnpStateVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpStateVariable.h; sourceTree = "<group>"; };
+		255578C81DD44D9400917F3D /* CGUpnpAvConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvConstants.h; sourceTree = "<group>"; };
+		255578C91DD44D9400917F3D /* CGUpnpAvContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContainer.h; sourceTree = "<group>"; };
+		255578CA1DD44D9400917F3D /* CGUpnpAvContentDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContentDirectory.h; sourceTree = "<group>"; };
+		255578CB1DD44D9400917F3D /* CGUpnpAvContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvContentManager.h; sourceTree = "<group>"; };
+		255578CC1DD44D9400917F3D /* CGUpnpAvController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvController.h; sourceTree = "<group>"; };
+		255578CD1DD44D9400917F3D /* CGUpnpAvItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvItem.h; sourceTree = "<group>"; };
+		255578CE1DD44D9400917F3D /* CGUpnpAvObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvObject.h; sourceTree = "<group>"; };
+		255578CF1DD44D9400917F3D /* CGUpnpAVPositionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAVPositionInfo.h; sourceTree = "<group>"; };
+		255578D01DD44D9400917F3D /* CGUpnpAvRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvRenderer.h; sourceTree = "<group>"; };
+		255578D11DD44D9400917F3D /* CGUpnpAvResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvResource.h; sourceTree = "<group>"; };
+		255578D21DD44D9400917F3D /* CGUpnpAvRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvRoot.h; sourceTree = "<group>"; };
+		255578D31DD44D9400917F3D /* CGUpnpAvServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUpnpAvServer.h; sourceTree = "<group>"; };
+		255578D41DD44D9400917F3D /* CGXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXml.h; sourceTree = "<group>"; };
+		255578D51DD44D9400917F3D /* CGXmlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXmlNode.h; sourceTree = "<group>"; };
+		255578D61DD44D9400917F3D /* UPnPAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPAV.h; sourceTree = "<group>"; };
+		2591B8881DD440F500E1105D /* Clinkc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clinkc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2591B88B1DD440F500E1105D /* Clinkc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clinkc.h; sourceTree = "<group>"; };
+		2591B88C1DD440F500E1105D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2591B8931DD4411500E1105D /* libclinkc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libclinkc.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2591B8841DD440F500E1105D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2591B8941DD4411500E1105D /* libclinkc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255578BE1DD44D9400917F3D /* clinkobjc */ = {
+			isa = PBXGroup;
+			children = (
+				255578BF1DD44D9400917F3D /* CGUpnpAction.h */,
+				255578C01DD44D9400917F3D /* CGUpnpAvController.h */,
+				255578C11DD44D9400917F3D /* CGUpnpAvRenderer.h */,
+				255578C21DD44D9400917F3D /* CGUpnpControlPoint.h */,
+				255578C31DD44D9400917F3D /* CGUpnpDevice.h */,
+				255578C41DD44D9400917F3D /* CGUpnpIcon.h */,
+				255578C51DD44D9400917F3D /* CGUpnpService.h */,
+				255578C61DD44D9400917F3D /* CGUpnpStateVariable.h */,
+			);
+			path = clinkobjc;
+			sourceTree = "<group>";
+		};
+		255578C71DD44D9400917F3D /* CyberLink */ = {
+			isa = PBXGroup;
+			children = (
+				255578C81DD44D9400917F3D /* CGUpnpAvConstants.h */,
+				255578C91DD44D9400917F3D /* CGUpnpAvContainer.h */,
+				255578CA1DD44D9400917F3D /* CGUpnpAvContentDirectory.h */,
+				255578CB1DD44D9400917F3D /* CGUpnpAvContentManager.h */,
+				255578CC1DD44D9400917F3D /* CGUpnpAvController.h */,
+				255578CD1DD44D9400917F3D /* CGUpnpAvItem.h */,
+				255578CE1DD44D9400917F3D /* CGUpnpAvObject.h */,
+				255578CF1DD44D9400917F3D /* CGUpnpAVPositionInfo.h */,
+				255578D01DD44D9400917F3D /* CGUpnpAvRenderer.h */,
+				255578D11DD44D9400917F3D /* CGUpnpAvResource.h */,
+				255578D21DD44D9400917F3D /* CGUpnpAvRoot.h */,
+				255578D31DD44D9400917F3D /* CGUpnpAvServer.h */,
+				255578D41DD44D9400917F3D /* CGXml.h */,
+				255578D51DD44D9400917F3D /* CGXmlNode.h */,
+				255578D61DD44D9400917F3D /* UPnPAV.h */,
+			);
+			path = CyberLink;
+			sourceTree = "<group>";
+		};
+		2591B87E1DD440F500E1105D = {
+			isa = PBXGroup;
+			children = (
+				2591B88A1DD440F500E1105D /* Clinkc */,
+				2591B8891DD440F500E1105D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2591B8891DD440F500E1105D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2591B8881DD440F500E1105D /* Clinkc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2591B88A1DD440F500E1105D /* Clinkc */ = {
+			isa = PBXGroup;
+			children = (
+				255578BE1DD44D9400917F3D /* clinkobjc */,
+				255578C71DD44D9400917F3D /* CyberLink */,
+				2591B8931DD4411500E1105D /* libclinkc.a */,
+				2591B88B1DD440F500E1105D /* Clinkc.h */,
+				2591B88C1DD440F500E1105D /* Info.plist */,
+			);
+			path = Clinkc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2591B8851DD440F500E1105D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255578DE1DD44D9400917F3D /* CGUpnpStateVariable.h in Headers */,
+				255578E51DD44D9400917F3D /* CGUpnpAvObject.h in Headers */,
+				255578E01DD44D9400917F3D /* CGUpnpAvContainer.h in Headers */,
+				255578E81DD44D9400917F3D /* CGUpnpAvResource.h in Headers */,
+				255578EB1DD44D9400917F3D /* CGXml.h in Headers */,
+				255578DA1DD44D9400917F3D /* CGUpnpControlPoint.h in Headers */,
+				255578DB1DD44D9400917F3D /* CGUpnpDevice.h in Headers */,
+				255578E11DD44D9400917F3D /* CGUpnpAvContentDirectory.h in Headers */,
+				2591B88D1DD440F500E1105D /* Clinkc.h in Headers */,
+				255578E31DD44D9400917F3D /* CGUpnpAvController.h in Headers */,
+				255578EC1DD44D9400917F3D /* CGXmlNode.h in Headers */,
+				255578E21DD44D9400917F3D /* CGUpnpAvContentManager.h in Headers */,
+				255578DD1DD44D9400917F3D /* CGUpnpService.h in Headers */,
+				255578EA1DD44D9400917F3D /* CGUpnpAvServer.h in Headers */,
+				255578D81DD44D9400917F3D /* CGUpnpAvController.h in Headers */,
+				255578E71DD44D9400917F3D /* CGUpnpAvRenderer.h in Headers */,
+				255578ED1DD44D9400917F3D /* UPnPAV.h in Headers */,
+				255578D71DD44D9400917F3D /* CGUpnpAction.h in Headers */,
+				255578E41DD44D9400917F3D /* CGUpnpAvItem.h in Headers */,
+				255578DC1DD44D9400917F3D /* CGUpnpIcon.h in Headers */,
+				255578E91DD44D9400917F3D /* CGUpnpAvRoot.h in Headers */,
+				255578DF1DD44D9400917F3D /* CGUpnpAvConstants.h in Headers */,
+				255578D91DD44D9400917F3D /* CGUpnpAvRenderer.h in Headers */,
+				255578E61DD44D9400917F3D /* CGUpnpAVPositionInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2591B8871DD440F500E1105D /* Clinkc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2591B8901DD440F500E1105D /* Build configuration list for PBXNativeTarget "Clinkc" */;
+			buildPhases = (
+				2591B8831DD440F500E1105D /* Sources */,
+				2591B8841DD440F500E1105D /* Frameworks */,
+				2591B8851DD440F500E1105D /* Headers */,
+				2591B8861DD440F500E1105D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clinkc;
+			productName = Clinkc;
+			productReference = 2591B8881DD440F500E1105D /* Clinkc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2591B87F1DD440F500E1105D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mjc;
+				TargetAttributes = {
+					2591B8871DD440F500E1105D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D8RJFY6RH2;
+						ProvisioningStyle = Automatic;
+					};
+					2591B8B61DD4446D00E1105D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D8RJFY6RH2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2591B8821DD440F500E1105D /* Build configuration list for PBXProject "Clinkc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2591B87E1DD440F500E1105D;
+			productRefGroup = 2591B8891DD440F500E1105D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2591B8871DD440F500E1105D /* Clinkc */,
+				2591B8B61DD4446D00E1105D /* Clinkcs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2591B8861DD440F500E1105D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2591B8BA1DD4449800E1105D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\necho \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2591B8831DD440F500E1105D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2591B88E1DD440F500E1105D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2591B88F1DD440F500E1105D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2591B8911DD440F500E1105D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D8RJFY6RH2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Clinkc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Clinkc",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjc.Clinkc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2591B8921DD440F500E1105D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D8RJFY6RH2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Clinkc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Clinkc",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjc.Clinkc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2591B8B81DD4446D00E1105D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = D8RJFY6RH2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2591B8B91DD4446D00E1105D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = D8RJFY6RH2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2591B8821DD440F500E1105D /* Build configuration list for PBXProject "Clinkc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2591B88E1DD440F500E1105D /* Debug */,
+				2591B88F1DD440F500E1105D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2591B8901DD440F500E1105D /* Build configuration list for PBXNativeTarget "Clinkc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2591B8911DD440F500E1105D /* Debug */,
+				2591B8921DD440F500E1105D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2591B8B71DD4446D00E1105D /* Build configuration list for PBXAggregateTarget "Clinkcs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2591B8B81DD4446D00E1105D /* Debug */,
+				2591B8B91DD4446D00E1105D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2591B87F1DD440F500E1105D /* Project object */;
+}
