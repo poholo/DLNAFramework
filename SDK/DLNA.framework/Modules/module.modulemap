@@ -1,0 +1,6 @@
+framework module DLNA {
+  umbrella header "DLNA.h"
+
+  export *
+  module * { export * }
+}
