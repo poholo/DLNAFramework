@@ -11,7 +11,7 @@
 ******************************************************************/
 
 #import "UPnPDeviceTableViewCell.h"
-#import <Clinkc/UPnP.h>
+#import <CyberLink/UPnP.h>
 
 @implementation UPnPDeviceTableViewCell
 

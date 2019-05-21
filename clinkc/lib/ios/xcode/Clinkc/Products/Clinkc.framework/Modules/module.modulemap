@@ -1,6 +1,0 @@
-framework module Clinkc {
-  umbrella header "Clinkc.h"
-
-  export *
-  module * { export * }
-}

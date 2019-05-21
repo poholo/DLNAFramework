@@ -6,9 +6,9 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#import "CGUpnpControlPoint.h"
-#import "CGUpnpDevice.h"
-#import "CGUpnpService.h"
-#import "CGUpnpAction.h"
-#import "CGUpnpStateVariable.h"
-#import "CGUpnpIcon.h"
+#import <CyberLink/CGUpnpControlPoint.h>
+#import <CyberLink/CGUpnpDevice.h>
+#import <CyberLink/CGUpnpService.h>
+#import <CyberLink/CGUpnpAction.h>
+#import <CyberLink/CGUpnpStateVariable.h>
+#import <CyberLink/CGUpnpIcon.h>

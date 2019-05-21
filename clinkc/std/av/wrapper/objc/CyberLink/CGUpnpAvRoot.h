@@ -6,7 +6,7 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#import "CGUpnpAvContainer.h"
+#import <CyberLink/CGUpnpAvContainer.h>
 
 /**
  * The CGUpnpAvRoot class is a root container of UPnP/AV.

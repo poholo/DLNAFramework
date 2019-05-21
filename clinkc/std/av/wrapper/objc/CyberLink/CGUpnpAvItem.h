@@ -6,8 +6,8 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#import "CGUpnpAvObject.h"
-#import "CGUpnpAvResource.h"
+#import <CyberLink/CGUpnpAvObject.h>
+#import <CyberLink/CGUpnpAvResource.h>
 
 /**
  * The CGUpnpAction class is a wrapper class for CgUpnpAction of CyberLink for C.

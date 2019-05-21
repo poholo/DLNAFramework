@@ -6,7 +6,7 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#import "CGXmlNode.h"
+#import <CyberLink/CGXmlNode.h>
 #import <QuartzCore/QuartzCore.h>
 
 /**

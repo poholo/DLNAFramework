@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CyberLink/UPnPAV.h>
 @class ServerContentViewController;
 @class CGUpnpAvController;
-@protocol CGUpnpControlPointDelegate;
-
 
 @interface MasterViewController : UITableViewController <CGUpnpControlPointDelegate>
 

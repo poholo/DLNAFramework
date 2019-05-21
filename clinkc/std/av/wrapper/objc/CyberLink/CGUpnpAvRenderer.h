@@ -9,8 +9,8 @@
 #import <Foundation/NSArray.h>
 #import <Foundation/NSString.h>
 
-#import "UPnP.h"
-#import "CGUpnpAVPositionInfo.h"
+#import <CyberLink/UPnP.h>
+#import <CyberLink/CGUpnpAVPositionInfo.h>
 
 @class CGUpnpAvRenderer;
 @class CGUpnpAVPositionInfo;

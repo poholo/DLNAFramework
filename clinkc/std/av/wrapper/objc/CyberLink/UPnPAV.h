@@ -6,14 +6,14 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#import "CGXml.h>
-#import "CGXmlNode.h>
-#import "CGUpnpAvObject.h>
-#import "CGUpnpAvContainer.h>
-#import "CGUpnpAvRoot.h>
-#import "CGUpnpAvContainer.h>
-#import "CGUpnpAvItem.h>
-#import "CGUpnpAvResource.h>
-#import "CGUpnpAvServer.h>
-#import "CGUpnpAvController.h>
-#import "CGUpnpAvRenderer.h>
+#import <CyberLink/CGXml.h>
+#import <CyberLink/CGXmlNode.h>
+#import <CyberLink/CGUpnpAvObject.h>
+#import <CyberLink/CGUpnpAvContainer.h>
+#import <CyberLink/CGUpnpAvRoot.h>
+#import <CyberLink/CGUpnpAvContainer.h>
+#import <CyberLink/CGUpnpAvItem.h>
+#import <CyberLink/CGUpnpAvResource.h>
+#import <CyberLink/CGUpnpAvServer.h>
+#import <CyberLink/CGUpnpAvController.h>
+#import <CyberLink/CGUpnpAvRenderer.h>

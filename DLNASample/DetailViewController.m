@@ -7,7 +7,7 @@
 //
 
 #import "DetailViewController.h"
-#import <Clinkc/CGUpnpDevice.h>
+#import <CyberLink/CGUpnpDevice.h>
 
 @interface DetailViewController ()
 - (void)configureView;
@@ -16,12 +16,12 @@
 @implementation DetailViewController
 
 @synthesize detailItem = _detailItem;
-@synthesize render = _render;
+@synthesize detailDescriptionLabel = _detailDescriptionLabel;
 @synthesize ipAddressLable = ipAddressLabel_;
 - (void)dealloc
 {
     [_detailItem release];
-    [_render release];
+    [_detailDescriptionLabel release];
     [super dealloc];
 }
 
@@ -44,7 +44,7 @@
 
     if (self.detailItem) {
         //self.detailDescriptionLabel.text = [self.detailItem description];
-        [(CGUpnpDevice*)(self.detailItem) friendlyName];
+        self.detailDescriptionLabel.text = [(CGUpnpDevice*)(self.detailItem) friendlyName];
         self.ipAddressLable.text = [(CGUpnpDevice*)(self.detailItem) ipaddress];
 #if 0
         ((CGUpnpAvServer*)self.detailItem).delegate = self;
@@ -114,29 +114,5 @@
 - (void)upnpAvServer:(CGUpnpAvServer *)upnpAvServer browse:(CGUpnpAction *)browseAction avObject:(CGUpnpAvObject *)avObject{
     NSLog(@"Delegate");
 }
-
-- (IBAction)startClick:(id)sender {
-    [self.render setAVTransportURI:@"http://vssauth.waqu.com/aznzlsgyrtqq56nc/normal.mp4?auth_key=1478769728-0-0-d7665fa51c4fdd276ff6bc5cb7c01630"];
-}
-
-- (IBAction)playClick:(id)sender {
-    if([self.render play]) {
-        
-    } else {
-    
-    }
-}
-
-- (IBAction)pauseClick:(id)sender {
-    [self.render pause];
-}
-
-- (IBAction)seekClick:(id)sender {
-    [self.render seek:300000];
-}
-
-- (IBAction)stopClick:(id)sender {
-    [self.render stop];
-}
-
+							
 @end

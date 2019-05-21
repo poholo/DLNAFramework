@@ -1,6 +1,0 @@
-framework module clickc2 {
-  umbrella header "clickc2.h"
-
-  export *
-  module * { export * }
-}

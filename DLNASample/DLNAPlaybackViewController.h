@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Clinkc/UPnP.h>
+#import <CyberLink/UPnP.h>
 @class CGUpnpAvItem;
 @class CGUpnpAvRenderer;
 

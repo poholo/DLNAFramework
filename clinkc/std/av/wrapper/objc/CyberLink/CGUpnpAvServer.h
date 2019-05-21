@@ -13,7 +13,7 @@
 #import <Foundation/NSString.h>
 #endif
 
-#import "UPnP.h"
+#import <CyberLink/UPnP.h>
 
 @class CGUpnpAvContentDirectory;
 @class CGUpnpAvObject;

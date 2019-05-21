@@ -8,15 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <CyberLink/CGUpnpAvServer.h>
-#import <CyberLink/CGUpnpAvRenderer.h>
 
 /**
  *  @brief 詳細画面
  */
 @interface DetailViewController : UIViewController <CGUpnpAvServerDelegate>
 
-@property (nonatomic, strong) CGUpnpAvRenderer * render;
-
 @property (strong, nonatomic) id detailItem;
+
+@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (nonatomic, retain) UILabel *ipAddressLable;
 @end

@@ -6,7 +6,7 @@
 //  Copyright 2008 Satoshi Konno. All rights reserved.
 //
 
-#import "CGUpnpAvObject.h"
+#import <CyberLink/CGUpnpAvObject.h>
 
 /**
  * The CGUpnpAvContainer class is a container of UPnP/AV container.

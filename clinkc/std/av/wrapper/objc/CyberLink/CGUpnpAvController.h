@@ -9,7 +9,7 @@
 #import <Foundation/NSArray.h>
 #import <Foundation/NSString.h>
 
-#import "UPnP.h"
+#import <CyberLink/UPnP.h>
 
 @class CGUpnpAvServer;
 @class CGUpnpAvObject;

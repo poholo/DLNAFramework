@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "CGXmlNode.h"
+#import <CyberLink/CGXmlNode.h>
 
 #if  !defined(_CG_CLINKCAV_CONTENT_H_)
 typedef void CgUpnpAvContent;
